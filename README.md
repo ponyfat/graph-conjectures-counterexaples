@@ -32,13 +32,18 @@ The tensorboard can be set up using playground notebook. Just type: ```%tensorbo
 ## Run example
 This is the example of tb-logs for Conjecture 2.1 from original paper.
 
-Model loss over iterations:
+Model loss over iterations (can be seen in tensorboard):
+
 ![conj21_loss](https://user-images.githubusercontent.com/26412001/138604873-dda77a97-75b9-4c5d-8308-d0cf5926720d.png)
 
-Mean reward of top6% generated examples in each iteration:
+Mean reward of top6% generated examples in each iteration (can be seen in tensorboard):
 
 ![conj21_reward](https://user-images.githubusercontent.com/26412001/138604912-a9ee9f12-cc94-44e7-904b-93e87efe49bc.png)
 
-Top 9 graphs on iteration 0:
-Top 9 graphs on iteration 100:
+Top 9 graphs on iteration 100 (can be seen in tensorboard, as well as top 9 graphs on other iterations):
 
+![conj21_100](https://user-images.githubusercontent.com/26412001/138605027-d9065829-84d7-47bb-946a-1d7bec896150.png)
+
+The counterexample"graph:
+
+![conj21_contr](https://user-images.githubusercontent.com/26412001/138605037-94959d26-c59c-46bb-9b12-8365dcdbb959.png)
