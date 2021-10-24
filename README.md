@@ -5,8 +5,13 @@ The code is based on the https://arxiv.org/abs/2104.14516 article. The author ex
 
 ## How to run
 First install all the needed dependencies
+
 ```pip install -r requirements.txt```
-Then adjust the model and learning parameters in model.py and constants.py files. Also set the required scorer in scores.py. Then you can simply run the main.py and enjoy the tensorboard graphs. 
+
+Then adjust the model and learning parameters in model.py and constants.py files. Also set the required scorer in scores.py.
+
+Then you can simply run the main.py and enjoy the tensorboard graphs.
+
 ```python main.py```
 
 
