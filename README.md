@@ -12,12 +12,16 @@ pip install -r requirements.txt
 
 Then adjust the model and learning parameters in model.py and constants.py files. Also set the required scorer in scores.py.
 
-Then you can simply run the main.py and enjoy the tensorboard graphs.
+Then you can simply run the main.py.
 
 ```
 python main.py
 ```
 
+And enjoy the tensorboard by running.
+```
+tensorboard --logdir logs
+```
 
 ## Experiments
 The logs directory already contains two of my successful experiments for conjectures 2.1 and 2.3 from the above mentioned paper. However, it makes the download process much slower, so if not needed - omit the logs dir.
