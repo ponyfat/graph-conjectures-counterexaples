@@ -27,4 +27,3 @@ tensorboard --logdir logs
 The logs directory already contains two of my successful experiments for conjectures 2.1 and 2.3 from the above mentioned paper. However, it makes the download process much slower, so if not needed - omit the logs dir.
 
 The tensorboard can be set up using playground notebook. Just type: ```tensorboard --logdir logs```.
-```
