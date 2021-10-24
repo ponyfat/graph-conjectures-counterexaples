@@ -10,9 +10,9 @@ First install all the needed dependencies
 pip install -r requirements.txt
 ```
 
-Then adjust the model and learning parameters in model.py and constants.py files (please find the detailed parameter descriptions there). Also set the required scorer in scores.py.
+Then adjust the model and learning parameters in ```model.py``` and ```constants.py``` files (please find the detailed parameter descriptions there). Also set the required scorer in ```scores.py```.
 
-If you want yo speed up calculations or get rid of uneccessary parallelization set the number of threads suitable for you in main.py. Then you can simply run the main.py.
+If you want yo speed up calculations or get rid of uneccessary parallelization set the number of threads suitable for you in ```main.py```. Then you can simply run the ```main.py```.
 
 ```
 python main.py
